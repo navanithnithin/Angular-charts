@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Angular-charts"
+    }
+  },
+  "defaultProject": "Angular-charts",
+  "cli": {
+    "analytics": "c9a187a4-a7a1-414d-9764-52e21c285836"
+  }
 }
