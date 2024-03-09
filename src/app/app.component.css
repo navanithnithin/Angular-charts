@@ -1,5 +1,8 @@
 #chart {
-    max-width: 200px;
+    max-width: 450px;
     margin: 35px auto;
     padding: 0;
+  }
+#chart ::ng-deep .apexcharts-legend.apx-legend-position-right{
+    visibility: hidden;
   }

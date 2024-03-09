@@ -34,10 +34,13 @@ export class AppComponent {
           breakpoint: 480,
           options: {
             chart: {
-              width: 1550
+              width: 350
             },
             legend: {
-              position: "bottom"
+              show : false,
+              fontSize: '24px',
+              // position: "top",
+              // hide: true,
             }
           }
         }
