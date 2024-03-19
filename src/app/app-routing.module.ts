@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { NgApexchartComponent } from './ng-Aoexcharts/ng-apexchart/ng-apexchart.component';
+import { LineComponent } from './ng-Aoexcharts/line/line.component';
 
 const routes: Routes = [
-  { path: '', component: NgApexchartComponent }
+  { path: '', component: LineComponent }
 ];
 
 @NgModule({
