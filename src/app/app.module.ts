@@ -1,18 +1,20 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { NgApexchartsModule } from 'ng-apexcharts';
+import { CandleStickComponent } from './ng-Aoexcharts/candle-stick/candle-stick.component';
+import { BoxAndwhiskersComponent } from './ng-Aoexcharts/box-andwhiskers/box-andwhiskers.component';
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CandleStickComponent,
+    BoxAndwhiskersComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
-    NgApexchartsModule
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { NgApexchartComponent } from './ng-apexchart.component';
+import { CandleStickComponent } from './candle-stick.component';
 
-describe('NgApexchartComponent', () => {
-  let component: NgApexchartComponent;
-  let fixture: ComponentFixture<NgApexchartComponent>;
+describe('CandleStickComponent', () => {
+  let component: CandleStickComponent;
+  let fixture: ComponentFixture<CandleStickComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ NgApexchartComponent ]
+      declarations: [ CandleStickComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(NgApexchartComponent);
+    fixture = TestBed.createComponent(CandleStickComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
